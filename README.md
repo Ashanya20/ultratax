@@ -214,23 +214,6 @@ This is a sample portfolio project. Feel free to use it as a template or referen
 
 ---
 
-## 📄 License
-
-© 2026 Ultra Tax Services. All rights reserved.
-
----
-
-## 📬 Connect
-
-**Project Created by:** [Ashanya20](https://github.com/Ashanya20)
-
-**Demo Contact:**
-- 📧 Email: info@ultrataxservices.com
-- 📞 Phone: (702) 735-0222
-- 📍 Location: Las Vegas, NV
-
----
-
 <p align="center">
   Built with ❤️ using pure HTML, CSS, and JavaScript
 </p>
