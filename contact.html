@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Ultra Tax Services</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="Ultra Tax Services" class="logo-img">
+                </a>
+
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link" data-en="Home" data-es="Inicio">Home</a></li>
+                        <li><a href="services.html" class="nav-link" data-en="Services" data-es="Servicios">Services</a></li>
+                        <li><a href="about.html" class="nav-link" data-en="About" data-es="Nosotros">About</a></li>
+                        <li><a href="contact.html" class="nav-link active" data-en="Contact" data-es="Contacto">Contact</a></li>
+                        <li><a href="blog.html" class="nav-link" data-en="Blog" data-es="Blog">Blog</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-actions">
+                    <div class="lang-toggle">
+                        <button class="lang-btn active" data-lang="en">English</button>
+                        <span class="lang-divider">|</span>
+                        <button class="lang-btn" data-lang="es">Español</button>
+                    </div>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title" data-en="Contact Us" data-es="Contáctenos">Contact Us</h1>
+            <p class="page-subtitle" data-en="Get in touch with our team" data-es="Póngase en contacto con nuestro equipo">
+                Get in touch with our team
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2 class="form-title" data-en="Send Us a Message" data-es="Envíenos un Mensaje">Send Us a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name" data-en="Name *" data-es="Nombre *">Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" data-en="Email *" data-es="Correo Electrónico *">Email *</label>
+                                <input type="email" id="email" name="email" required placeholder="john@example.com">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone" data-en="Phone" data-es="Teléfono">Phone</label>
+                                <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890">
+                            </div>
+                            <div class="form-group">
+                                <label for="service" data-en="Service" data-es="Servicio">Service</label>
+                                <select id="service" name="service">
+                                    <option value="" data-en="Select a service" data-es="Seleccione un servicio">Select a service</option>
+                                    <option value="tax-prep" data-en="Tax Preparation" data-es="Preparación de Impuestos">Tax Preparation</option>
+                                    <option value="credit-repair" data-en="Credit Repair" data-es="Reparación de Crédito">Credit Repair</option>
+                                    <option value="business" data-en="Business Services" data-es="Servicios Empresariales">Business Services</option>
+                                    <option value="other" data-en="Other" data-es="Otro">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-en="Message *" data-es="Mensaje *">Message *</label>
+                            <textarea id="message" name="message" rows="3" required placeholder="How can we help you?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-en="Send Message" data-es="Enviar Mensaje">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-wrapper">
+                    <h2 class="info-title" data-en="Contact Information" data-es="Información de Contacto">Contact Information</h2>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div class="info-content">
+                                <h3 data-en="Address" data-es="Dirección">Address</h3>
+                                <p>5341 S Eastern Ave, Las Vegas, NV 89119</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </div>
+                            <div class="info-content">
+                                <h3 data-en="Phone" data-es="Teléfono">Phone</h3>
+                                <p>(702) 735-0222</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="info-content">
+                                <h3 data-en="Email" data-es="Correo Electrónico">Email</h3>
+                                <p>info@ultrataxservices.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                            </div>
+                            <div class="info-content">
+                                <h3 data-en="Business Hours" data-es="Horario Comercial">Business Hours</h3>
+                                <p data-en="Monday - Friday: 9:00 AM - 6:00 PM" data-es="Lunes - Viernes: 9:00 AM - 6:00 PM">
+                                    Monday - Friday: 9:00 AM - 6:00 PM
+                                </p>
+                                <p data-en="Saturday: 10:00 AM - 2:00 PM" data-es="Sábado: 10:00 AM - 2:00 PM">
+                                    Saturday: 10:00 AM - 2:00 PM
+                                </p>
+                                <p data-en="Sunday: Closed" data-es="Domingo: Cerrado">
+                                    Sunday: Closed
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="#" class="contact-social-icon" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="contact-social-icon" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" class="contact-social-icon" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="contact-social-icon" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title" data-en="Frequently Asked Questions" data-es="Preguntas Frecuentes">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-header" onclick="toggleFaq(this)">
+                        <h3 class="faq-question" data-en="What documents do I need for tax preparation?" data-es="¿Qué documentos necesito para la preparación de impuestos?">
+                            What documents do I need for tax preparation?
+                        </h3>
+                        <span class="faq-arrow">+</span>
+                    </div>
+                    <p class="faq-answer" data-en="You'll need your W-2 forms, 1099 forms, previous year's tax return, and any relevant deduction receipts." data-es="Necesitará sus formularios W-2, formularios 1099, declaración de impuestos del año anterior y cualquier recibo de deducción relevante.">
+                        You'll need your W-2 forms, 1099 forms, previous year's tax return, and any relevant deduction receipts.
+                    </p>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-header" onclick="toggleFaq(this)">
+                        <h3 class="faq-question" data-en="How long does credit repair take?" data-es="¿Cuánto tiempo toma la reparación de crédito?">
+                            How long does credit repair take?
+                        </h3>
+                        <span class="faq-arrow">+</span>
+                    </div>
+                    <p class="faq-answer" data-en="Credit repair typically takes 3-6 months, depending on your specific situation and the items on your credit report." data-es="La reparación de crédito generalmente toma de 3 a 6 meses, dependiendo de su situación específica y los elementos en su reporte de crédito.">
+                        Credit repair typically takes 3-6 months, depending on your specific situation and the items on your credit report.
+                    </p>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-header" onclick="toggleFaq(this)">
+                        <h3 class="faq-question" data-en="Do you offer free consultations?" data-es="¿Ofrecen consultas gratuitas?">
+                            Do you offer free consultations?
+                        </h3>
+                        <span class="faq-arrow">+</span>
+                    </div>
+                    <p class="faq-answer" data-en="Yes! We offer free initial consultations to discuss your tax and credit needs." data-es="¡Sí! Ofrecemos consultas iniciales gratuitas para discutir sus necesidades fiscales y de crédito.">
+                        Yes! We offer free initial consultations to discuss your tax and credit needs.
+                    </p>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-header" onclick="toggleFaq(this)">
+                        <h3 class="faq-question" data-en="Can you help with IRS audits?" data-es="¿Pueden ayudar con auditorías del IRS?">
+                            Can you help with IRS audits?
+                        </h3>
+                        <span class="faq-arrow">+</span>
+                    </div>
+                    <p class="faq-answer" data-en="Yes, we provide IRS audit support and representation to help you navigate the audit process." data-es="Sí, proporcionamos soporte y representación de auditoría del IRS para ayudarlo a navegar el proceso de auditoría.">
+                        Yes, we provide IRS audit support and representation to help you navigate the audit process.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2 class="cta-title" data-en="Ready to Get Started?" data-es="¿Listo para Comenzar?">Ready to Get Started?</h2>
+            <p class="cta-desc" data-en="Contact us today for a free consultation" data-es="Contáctenos hoy para una consulta gratuita">
+                Contact us today for a free consultation
+            </p>
+            <a href="tel:7027350222" class="btn btn-primary btn-large" data-en="Call Us Now" data-es="Llámenos Ahora">Call Us Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 class="footer-title" data-en="Quick Links" data-es="Enlaces Rápidos">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-en="Home" data-es="Inicio">Home</a></li>
+                        <li><a href="services.html" data-en="Services" data-es="Servicios">Services</a></li>
+                        <li><a href="about.html" data-en="About" data-es="Nosotros">About</a></li>
+                        <li><a href="contact.html" data-en="Contact" data-es="Contacto">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-en="Services" data-es="Servicios">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html" data-en="Tax Preparation" data-es="Preparación de Impuestos">Tax Preparation</a></li>
+                        <li><a href="services.html" data-en="Credit Repair" data-es="Reparación de Crédito">Credit Repair</a></li>
+                        <li><a href="services.html" data-en="Business Taxes" data-es="Impuestos Empresariales">Business Taxes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-en="Contact Info" data-es="Información de Contacto">Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            5341 S Eastern Ave, Las Vegas, NV 89119
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.0 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            (702) 735-0222
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            info@ultrataxservices.com
+                        </li>
+                    </ul>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Ultra Tax Services. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        function toggleFaq(header) {
+            const item = header.parentElement;
+            item.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
